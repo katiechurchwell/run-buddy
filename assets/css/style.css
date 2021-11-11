@@ -24,6 +24,7 @@ header {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  z-index: 9999;
 }
 
 header h1 {
@@ -212,7 +213,7 @@ h3 {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: #024e76;
+  background-image: radial-gradient(circle, #39a6b2, #024e76);
   position: absolute;
   left: -29px;
   top: -3px;
@@ -223,9 +224,21 @@ h3 {
   height: 6px;
   width: 14px;
   border-left: 2px solid #024e76;
+  border-bottom: 2px solid #024e76;
   position: absolute;
   left: -26px;
   top: 1px;
+  transform: rotate(-58deg);
+}
+
+.checkbox-wrapper input + label::after,
+.radio-wrapper input + label::after {
+  content: none;
+}
+
+.checkbox-wrapper input:checked + label::after,
+.radio-wrapper input:checked + label::after {
+  content: "";
 }
 
 /* Hero Style End */
