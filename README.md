@@ -1,6 +1,6 @@
 # Run Buddy
-  [![project-languages-used](https://img.shields.io/github/languages/count/katiechurchwell/run-buddy?color=important)](https://github.com/katiechurchwell/readme-generator)
-  [![project-top-language](https://img.shields.io/github/languages/top/katiechurchwell/run-buddy?color=blueviolet)](https://github.com/katiechurchwell/readme-generator)
+  [![project-languages-used](https://img.shields.io/github/languages/count/katiechurchwell/run-buddy?color=important)](https://github.com/katiechurchwell/run-buddy)
+  [![project-top-language](https://img.shields.io/github/languages/top/katiechurchwell/run-buddy?color=blueviolet)](https://github.com/katiechurchwell/run-buddy)
 
 
 ## Summary
